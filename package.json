@@ -1,0 +1,8 @@
+{
+  "author": "Caio Rodrigues <@rfcaio>",
+  "name": "js-webpack-demo",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
