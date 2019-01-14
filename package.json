@@ -2,7 +2,11 @@
   "author": "Caio Rodrigues <@rfcaio>",
   "name": "js-webpack-demo",
   "devDependencies": {
+    "lodash": "^4.17.11",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
   }
 }
