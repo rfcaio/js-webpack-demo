@@ -21,19 +21,19 @@
     "webpack-dev-server": "3.2.1",
     "xml-loader": "1.2.1"
   },
-  "homepage": "https://github.com/rfcaio/js-webpack-demo#readme",
+  "homepage": "https://github.com/rfcaio/webpack-guides#readme",
   "license": "MIT",
-  "name": "js-webpack-demo",
+  "name": "webpack-guides",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/rfcaio/js-webpack-demo.git"
+    "url": "https://github.com/rfcaio/webpack-guides.git"
   },
   "scripts": {
-    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
     "server": "node server.js",
-    "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.js --open",
-    "watch": "./node_modules/.bin/webpack --config webpack.config.js --watch"
+    "start": "webpack-dev-server --config webpack.config.js --open",
+    "watch": "webpack --config webpack.config.js --watch"
   },
   "version": "1.0.0"
 }
